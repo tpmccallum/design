@@ -1,0 +1,80 @@
+.hero-section {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    border-bottom: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.upload-card, .gauge-card, .table-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.upload-card:hover, .gauge-card:hover, .table-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gauge {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3;
+}
+
+.table-row {
+    background-color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+
+.table-row-odd {
+    background-color: #f8f9fa;
+}
+
+.table-row-hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    color: #333;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    border: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #0096cc);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #28a745, #34ce57);
+    border: none;
+    animation: successPulse 0.5s ease-in-out;
+}
+
+@keyframes successPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+#status {
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
