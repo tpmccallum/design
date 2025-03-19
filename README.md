@@ -55,7 +55,7 @@ emcc -std=c++11 main.cpp /Users/tpmccallum/xlnt/build/source/libxlnt.a \
   -o data_processor.js
 ```
 
-
+![Screenshot 2025-03-19 at 16 14 25](https://github.com/user-attachments/assets/707e813e-68d8-4c8c-9d3a-216974430a3e)
 
 Below is another simple demonstration that allows the user to move the needle on the gauges.
 
